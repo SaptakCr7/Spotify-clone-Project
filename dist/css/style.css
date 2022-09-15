@@ -16,6 +16,7 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   grid-gap: 20px;
   list-style: none;
   background-color: black;
@@ -47,7 +48,7 @@ nav ul .brand img {
   font-family: "Varela Round", sans-serif;
   margin: 23px auto;
   padding: 10px;
-  background-image: url("/Assets/wp4864392.jpg");
+  background-image: url("/Assets/HD2.jpg");
   background-size: cover;
 }
 .container .songItemContainer {

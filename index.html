@@ -17,7 +17,7 @@
       <ul>
         <li class="brand">
           <img
-            src="./Assets/Spotify_logo_without_text.svg.png"
+            src="./Assets//Spotify_logo_without_text.svg.png"
             alt="songify logo"
           /><span>Songify</span>
         </li>
@@ -30,91 +30,60 @@
       <h1>Best of NCS - no Copyright Sounds</h1>
       <div class="songItemContainer">
         <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
+          <img height="100px" alt="1" />
+          <span class="songName"> wont back down</span>
           <span class="songlistplay"
             ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
+            <i id="0" class="songItemPlay fa-solid fa-circle-play"></i>
           </span>
         </div>
         <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
+          <img height="100px" alt="1" />
+          <span class="songName"> wont back down</span>
           <span class="songlistplay"
             ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
+            <i id="1" class="songItemPlay fa-solid fa-circle-play"></i>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img height="100px" alt="1" />
+          <span class="songName"> wont back down</span>
+          <span class="songlistplay"
+            ><span class="timeStamp">05:36</span>
+            <i id="2" class="songItemPlay fa-solid fa-circle-play"></i>
           </span>
         </div>
         <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
+          <img height="100px" alt="1" />
+          <span class="songName"> wont back down</span>
           <span class="songlistplay"
             ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
+            <i id="3" class="songItemPlay fa-solid fa-circle-play"></i>
           </span>
         </div>
         <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
+          <img height="100px" alt="1" />
+          <span class="songName"> wont back down</span>
           <span class="songlistplay"
             ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
+            <i id="4" class="songItemPlay fa-solid fa-circle-play"></i>
           </span>
         </div>
         <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
+          <img height="100px" alt="1" />
+          <span class="songName"> wont back down</span>
           <span class="songlistplay"
             ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
+            <i id="5" class="songItemPlay fa-solid fa-circle-play"></i>
           </span>
         </div>
         <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
+          <img height="100px" alt="1" />
+          <span class="songName"> wont back down</span>
           <span class="songlistplay"
             ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
-          </span>
-        </div>
-        <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
-          <span class="songlistplay"
-            ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
-          </span>
-        </div>
-        <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
-          <span class="songlistplay"
-            ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
-          </span>
-        </div>
-        <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
-          <span class="songlistplay"
-            ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
-          </span>
-        </div>
-        <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
-          <span class="songlistplay"
-            ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
-          </span>
-        </div>
-        <div class="songItem">
-          <img src="/Assets/fposter.jpg" height="100px" alt="1" />
-          <span>I wont back down</span>
-          <span class="songlistplay"
-            ><span class="timeStamp">05:36</span>
-            <i class="fa-solid fa-circle-play"></i>
+            <i id="6" class="songItemPlay fa-solid fa-circle-play"></i>
           </span>
         </div>
       </div>
@@ -131,13 +100,15 @@
       />
       <div class="icons">
         <!-- fontawesome icons -->
-        <i class="fa-solid fa-3x fa-backward-step"></i>
+        <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
         <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
-        <i class="fa-solid fa-3x fa-forward-step"></i>
+        <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
       </div>
       <div class="songInfo">
-        <img src="./Assets/Nt6v.gif" width="42px" alt="" id="gif" /> I wont Back
-        Down - Eminem
+        <img src="./Assets/Nt6v.gif" width="42px" alt="" id="gif" />
+        <div class="songName">
+          <span id="masterSongName">Animals- Martin Garrix</span>
+        </div>
       </div>
     </div>
   </body>
